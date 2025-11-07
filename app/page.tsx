@@ -34,23 +34,11 @@ export default function Home() {
         {/* Right: Image */}
         <div className="flex-1 mt-8 md:mt-0 md:ml-12 flex justify-center">
           <img
-            src={`data:image/svg+xml;utf8,${encodeURIComponent(`
-    <svg xmlns="http://www.w3.org/2000/svg" width="900" height="720" viewBox="0 0 900 720">
-      <rect width="100%" height="100%" fill="#E9D8A6"/>
-      <g fill="#005F73" font-family="Poppins, sans-serif" font-weight="600">
-        <text x="50" y="120" font-size="36">VandeHub</text>
-      </g>
-      <g fill="#001219" font-family="Inter, sans-serif">
-        <text x="50" y="200" font-size="28">Trusted essentials for every Indian home.</text>
-        <text x="50" y="250" font-size="18" fill="#444">Family-first · Pure · Reliable</text>
-      </g>
-      <rect x="50" y="300" rx="12" ry="12" width="260" height="160" fill="#ffffff" stroke="#005F73" />
-      <text x="75" y="375" font-size="16" fill="#005F73">[Hero image placeholder]</text>
-    </svg>
-  `)}`}
-            alt="Hero placeholder"
-            className="rounded-lg shadow-md object-cover w-[500px] h-[400px]"
+  src="https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=900&q=80"
+  alt="Pouring clean water into a glass"
+  className="rounded-lg shadow-md object-cover w-[500px] h-[400px]"
           />
+
         </div>
       </section>
       {/* Featured Product Section */}
